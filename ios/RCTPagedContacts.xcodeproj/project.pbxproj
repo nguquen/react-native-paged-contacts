@@ -110,6 +110,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 145CC5671AED80100006342E;
@@ -144,6 +145,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -158,6 +160,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
